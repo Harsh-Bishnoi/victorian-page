@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('../css/root.css');
+
+.bg-img {
+    background-image: url(../images/header-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
+.bg-color {
+    background-color: var(--bg-color-infinite-night);
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    z-index: 10;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+}
+
+.rotate40 {
+    transform: rotate(42deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.rotate-45 {
+    transform: rotate(-43deg);
+}
+
+.gap-23 {
+    gap: 23px;
+}
+
+.gap-53 {
+    gap: 53.26px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.py-9 {
+    padding: 9px 0px;
+}
+
+.nav-btn-1,
+.nav-btn-3 {
+    width: 80px;
+    height: 40px;
+    border-radius: 3.48px;
+    background-color: var(--bg-color-infinite-night);
+    border: 1px solid #39C6FD;
+    transition: all 350ms linear;
+}
+
+.nav-btn-2,
+.nav-btn-4 {
+    width: 94px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: var(--bg-color-infinite-night);
+    border: 1px solid #39C6FD;
+    transition: all 350ms linear;
+}
+
+.nav-btn-1:hover,
+.nav-btn-2:hover,
+.join-btn:hover,
+.nav-btn-3:hover,
+.nav-btn-4:hover {
+    background-color: var(--color-sky-blue);
+    color: var(--bg-color-infinite-night);
+}
+
+.max-w-607 {
+    max-width: 607px;
+}
+
+.pb-64 {
+    padding-bottom: 64px;
+}
+
+.mt-68 {
+    margin-top: 68px;
+}
+
+.join-btn {
+    width: 217px;
+    height: 58px;
+    border-radius: 5.04px;
+    background-color: var(--bg-color-infinite-night);
+    border: 1px solid #39C6FD;
+    transition: all 350ms linear;
+}
+
+.layer {
+    bottom: -1%;
+}
+
+/* section 1 */
+.app-store-btn {
+    width: 148.5px;
+    height: 44px;
+    background-color: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+.triangle-svg {
+    right: 0%;
+    top: -35%;
+}
+
+.ellipse-layer {
+    /* top: 50%; */
+    left: 0%;
+}
+
+.vertical-align {
+    vertical-align: baseline;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.mt-63 {
+    margin-top: 63px;
+}
+
+.pl-13 {
+    padding-left: 13px;
+}
+
+.pt-6 {
+    padding-top: 6px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.box {
+    max-width: 148.5px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+/* slider */
+
+.max-w-632 {
+    max-width: 632px;
+}
+
+.max-w-516 {
+    max-width: 516px;
+}
+
+.card {
+    max-width: 494px;
+}
+
+.mt-17 {
+    margin-top: 17px;
+}
+
+@media (max-width:991.98px) {
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        background-color: black !important;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 5;
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+
+    .nav-btn-1,
+    .nav-btn-2 {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+
+    .nav-btn-3,
+    .nav-btn-4 {
+        display: none;
+    }
+}
+
+@media (max-width:530px) {
+
+    .nav-btn-3,
+    .nav-btn-4 {
+        display: none;
+    }
+}
+
+@media (max-width:575.98px) {
+    .mt-24 {
+        margin-top: 24px;
+    }
+}
