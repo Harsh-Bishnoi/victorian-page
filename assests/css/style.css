@@ -237,6 +237,48 @@
     z-index: -1;
 }
 
+/* section 4 */
+.bg-img-2 {
+    background-image: url(../images/section-4-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    max-width: 1140px;
+    background: var(--bg-color-infinite-night);
+    border: 3px solid #39C6FD;
+    border-radius: 10px;
+    padding: 65px 0px 89px 73px;
+}
+
+.max-w-582 {
+    max-width: 582px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.join-btn-2 {
+    width: 117px;
+    height: 46px;
+    border: none;
+    background: var(--color-sky-blue);
+    color: var(--color-infinite);
+    border-radius: 4px
+}
+
+.phone-img {
+    top: -34%;
+    right: 41px;
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
