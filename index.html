@@ -30,8 +30,8 @@
                 <div class="d-flex align-items-center justify-content-between w-100">
                     <div class="d-flex align-items-center gap-23">
                         <img src="./assests/images/svg/navbar-logo.svg" alt="navbar-logo" class="cursor-pointer">
-                        <div class="font-family-first fw-bold fs-6 lh-23 text-center color-sky-blue">VICTORIAN
-                            RESISTANCE</div>
+                        <a class="font-family-first fw-bold fs-6 lh-23 text-center color-sky-blue text-decoration-none"
+                            href="">VICTORIAN RESISTANCE</a>
                     </div>
                     <ul id="name"
                         class="d-flex mb-0 align-items-center gap-53 nav-link list-unstyled justify-content-center">
@@ -39,7 +39,7 @@
                                 href="/">PA02-SIERRA-11 SCOREBOARD</a></li>
                         <li><a class="text-decoration-none font-family-first fw-bold fs-6 lh-23 text-center color-white"
                                 href="/">SMURFLING GUIDE</a></li>
-                        <!-- <li>
+                        <li class="d-lg-none">
                             <ul class="d-flex list-unstyled gap-20 mb-0 flex-column flex-lg-row">
                                 <li><button
                                         class="nav-btn-1 font-family-first fw-bold fs-6 lh-23 text-center bg-color-infinite-night border-0">LOGIN</button>
@@ -48,14 +48,14 @@
                                         class="nav-btn-2 font-family-first fw-bold fs-6 lh-23 text-center color-sky-blue">SIGN
                                         UP</button></li>
                             </ul>
-                        </li> -->
+                        </li>
                     </ul>
                     <ul class="d-flex list-unstyled gap-20 mb-0">
                         <li><button
-                                class="nav-btn-1 font-family-first fw-bold fs-6 lh-23 text-center bg-color-infinite-night border-0">LOGIN</button>
+                                class="nav-btn-3 font-family-first fw-bold fs-6 lh-23 text-center bg-color-infinite-night border-0">LOGIN</button>
                         </li>
                         <li><button
-                                class="nav-btn-2 font-family-first fw-bold fs-6 lh-23 text-center color-sky-blue">SIGN
+                                class="nav-btn-4 font-family-first fw-bold fs-6 lh-23 text-center color-sky-blue">SIGN
                                 UP</button></li>
                     </ul>
                     <div onclick="navbarbtn()" class="z-5 d-block d-lg-none cursor-pointer">
@@ -95,7 +95,7 @@
                             class="position-absolute phone-bg-layer w-100 d-lg-block d-none">
                     </div>
                 </div>
-                <div class="col-12 col-lg-7 pt-5 pt-lg-0">
+                <div class="col-12 col-lg-7 pt-5 pt-lg-0 z-1">
                     <h2
                         class="font-family-first fw-normal lh-71 fs-xl color-white d-flex d-lg-block justify-content-center z-2">
                         ABOUT US</h2>
@@ -119,10 +119,10 @@
                             the more easily you'll be able to gear up to take and hold your area.</p>
                     </div>
                     <div class="d-flex align-items-center gap-30 mt-63 justify-content-center justify-content-lg-start">
-                        <a class="z-1" href="">
+                        <a class="z-1" href="https://www.apple.com/in/app-store/" target="_blank">
                             <img src="./assests/images/svg/app-store-svg.svg" alt="app-store"
                                 class="app-store w-100"></a>
-                        <a href="">
+                        <a href="https://play.google.com/store/apps?hl=en_IN&pli=1" target="_blank">
                             <img src="./assests/images/svg/google-play-svg.svg" alt="google-play"
                                 class="app-store w-100"></a>
                     </div>
@@ -131,7 +131,7 @@
         </div>
     </section>
     <!--***** slider *****-->
-    <section class="d-flex justify-content-center align-items-center align-content-center flex-column mb-139">
+    <section class="d-flex justify-content-center align-items-center align-content-center flex-column mb-198">
         <div class="container">
             <div class="d-flex justify-content-center">
                 <h2 class="font-family-first fw-normal lh-71 text-center color-white fs-xl max-w-632">Your world is the
@@ -156,6 +156,108 @@
             <div class="slider-card w-100">
                 <img src="./assests/images/slider-img-2.png" alt="slider-img-2" class="w-100">
             </div>
+        </div>
+    </section>
+    <!--***** accordion *****-->
+    <section
+        class="section-3 d-flex justify-content-center align-items-center align-content-center flex-column mb-200 position-relative">
+        <img src="./assests/images/svg/left-triangle-img.svg" alt="triangle-svg"
+            class="left-triangle position-absolute w- 100">
+        <div class="container">
+            <div class="font-family-first fw-normal fs-xl lh-71 text-center color-white">FAQs</div>
+            <div class="d-flex justify-content-center">
+                <div class="font-family-second fw-normal fs-sm lh-21 text-center color-white max-w-680 pt-12">Porta
+                    maecenas
+                    consequat sed neque gravida eleifend fusce cursus amet. Turpis enim sed
+                    pharetra tempus ullamcorper mauris mauris facilisis.</div>
+            </div>
+        </div>
+        <div class="accordion accordion-flush mt-25" id="accordionFlushExample">
+            <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <span class="font-family-first fw-bold color-white fs-md lh-29 text-center">Q1.</span><span
+                            class="font-family-first fw-bold color-white fs-md lh-29">
+                            Aliquam magnis sed arcu rutrum quisque sed aliquet vestibulum?</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body font-family-second fw-normal fs-sm lh-21 color-white max-w-810">Volutpat
+                        etiam
+                        tincidunt leo amet pulvinar. Adipiscing vestibulum enim
+                        ornare vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id nisi eget
+                        nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus amet suspendisse mattis
+                        dictum. Ac viverra auctor a vitae dolor nisi.
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <span class="font-family-first fw-bold color-white fs-md lh-29 text-center">Q2.</span><span
+                            class="font-family-first fw-bold color-white fs-md lh-29">A semper enim quis non aenean
+                            adipiscing lectus neque?</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body font-family-second fw-normal fs-sm lh-21 color-white max-w-810">Volutpat
+                        etiam tincidunt leo amet pulvinar. Adipiscing vestibulum enim
+                        ornare vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id nisi eget
+                        nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus amet suspendisse mattis
+                        dictum. Ac viverra auctor a vitae dolor nisi.
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <span class="font-family-first fw-bold color-white fs-md lh-29 text-center">Q3.</span><span
+                            class="font-family-first fw-bold color-white fs-md lh-29">Consectetur faucibus velit aliquam
+                            dictum vestibulum
+                            sollicitudinlla
+                            dapibus consectetur
+                            suscipit1?</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body font-family-second fw-normal fs-sm lh-21 color-white max-w-810">Volutpat
+                        etiam tincidunt leo amet pulvinar. Adipiscing vestibulum enim
+                        ornare vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id nisi eget
+                        nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus amet suspendisse mattis
+                        dictum. Ac viverra auctor a vitae dolor nisi.
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <span class="font-family-first fw-bold color-white fs-md lh-29 text-center">Q4.</span><span
+                            class="font-family-first fw-bold color-white fs-md lh-29">Volutpat cras natoque
+                            suscipit in semisus
+                            euismod?</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body font-family-second fw-normal fs-sm lh-21 color-white max-w-810">Volutpat
+                        etiam tincidunt leo amet pulvinar. Adipiscing vestibulum enim
+                        ornare vestibulum. Mauris sit hendrerit interdum neque mattis enim eget. Quam lorem id nisi eget
+                        nisl tortor semper elit. Id aliquam morbi ac potenti. Egestas ac tellus amet suspendisse mattis
+                        dictum. Ac viverra auctor a vitae dolor nisi.
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
         </div>
     </section>
     <!--***** bootstrap link *****-->
