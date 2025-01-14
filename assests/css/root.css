@@ -3,8 +3,8 @@
     --font-family-second: "Open Sans", serif;
     --bg-color-infinite-night: #070D37;
     --color-sky-blue: #39C6FD;
+    --color-infinite: #070D37;
     --color-white: #FFFFFF;
-    /* --color-black: #070D37; */
     --fs-md: 20px;
     --fs-xl: 48px;
     --fs-2xl: 80px;
@@ -25,6 +25,10 @@
 
 .bg-color-infinite-night {
     background-color: var(--color-infinite-night);
+}
+
+.color-infinite {
+    background-color: var(--color-infinite);
 }
 
 .color-sky-blue {
