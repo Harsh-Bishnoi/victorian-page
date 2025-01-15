@@ -12,8 +12,10 @@ $('.slider').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    dots: true,
+    dots: false,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 1000,
     variableWidth: true,
     centerMode: true,
     centerPadding: '40px',
@@ -24,6 +26,8 @@ $('.slider').slick({
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
+                autoplay: true,
+                autoplaySpeed: 1000,
                 centerMode: true,
                 centerPadding: '40px',
             }
@@ -33,6 +37,8 @@ $('.slider').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
                 centerMode: true,
                 centerPadding: '40px',
             }
