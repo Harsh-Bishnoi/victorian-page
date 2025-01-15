@@ -7,7 +7,7 @@ const navbarbtn = () => {
     document.body.classList.toggle("overflow-hidden")
 }
 
-
+// slider
 $('.slider').slick({
     infinite: true,
     slidesToShow: 3,
