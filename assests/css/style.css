@@ -92,7 +92,7 @@
     bottom: -1%;
 }
 
-/* section 1 */
+/***** section 1 *****/
 .triangle-svg {
     right: 0%;
     top: -91%;
@@ -182,7 +182,7 @@
     margin-top: 17px;
 }
 
-/* accordion */
+/***** accordion *****/
 .max-w-680 {
     max-width: 680px;
 }
@@ -237,7 +237,7 @@
     z-index: -1;
 }
 
-/* section 4 */
+/***** section 4 *****/
 .bg-img-2 {
     background-image: url(../images/section-4-bg-img.png);
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@
 }
 
 .phone-img {
-    top: -34%;
+    top: -32%;
     right: 41px;
 }
 
@@ -285,6 +285,36 @@
 .iphone {
     max-width: 302.79px;
     height: 608.46px;
+}
+
+.triangle-img {
+    top: 31%;
+    right: 0%;
+}
+
+/***** footer *****/
+.max-width-810 {
+    max-width: 810px;
+}
+
+.gap-63 {
+    gap: 63px;
+}
+
+.pt-52 {
+    padding-top: 52px;
+}
+
+.line-2 {
+    border: 0.5px solid #39C6FD;
+}
+
+.pb-36 {
+    padding-bottom: 36px;
+}
+
+.max-width-195 {
+    max-width: 195px;
 }
 
 @media (max-width:991.98px) {
