@@ -234,7 +234,7 @@
 
 .left-triangle {
     left: 0;
-    top: -280px;
+    top: -370px;
     z-index: -1;
 }
 
@@ -438,7 +438,7 @@
 @media (max-width:1399.98px) {
     .left-triangle {
         max-width: 350px;
-        top: -130px;
+        top: -194px;
     }
 }
 
