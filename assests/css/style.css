@@ -58,19 +58,20 @@
 
 .nav-btn-1,
 .nav-btn-3 {
-    width: 80px;
-    height: 40px;
     border-radius: 3.48px;
     background-color: var(--color-sky-blue);
+    padding: 8px 20px 8px 20px;
+    border: 1px solid;
+    border-color: var(--color-sky-blue);
 }
 
 .nav-btn-2,
 .nav-btn-4 {
-    width: 94px;
-    height: 40px;
+    padding: 8px 20px 8px 20px;
     border-radius: 4px;
     background-color: var(--bg-color-infinite-night);
-    border: 1px solid #39C6FD;
+    border: 1px solid;
+    border-color: var(--color-sky-blue);
 }
 
 .max-w-607 {
@@ -82,8 +83,7 @@
 }
 
 .join-btn {
-    width: 217px;
-    height: 58px;
+    padding: 14px 27px 14px 27px;
     border-radius: 5.04px;
     background-color: var(--color-sky-blue);
 }
@@ -215,7 +215,8 @@
 }
 
 .line {
-    border: 2px solid #39C6FD;
+    border: 2px solid;
+    border-color: var(--color-sky-blue);
 }
 
 .section-3 .accordion-button:not(.collapsed)::after {
@@ -248,7 +249,8 @@
 .box {
     max-width: 1140px;
     background: var(--bg-color-infinite-night);
-    border: 3px solid #39C6FD;
+    border: 3px solid;
+    border-color: var(--color-sky-blue);
     border-radius: 10px;
 }
 
@@ -265,8 +267,7 @@
 }
 
 .join-btn-2 {
-    width: 117px;
-    height: 46px;
+    padding: 11px 27px 11px 27px;
     border: none;
     background: var(--color-sky-blue);
     color: var(--color-infinite);
@@ -306,7 +307,8 @@
 }
 
 .line-2 {
-    border: 0.5px solid #39C6FD;
+    border: 0.5px solid;
+    border-color: var(--color-sky-blue);
 }
 
 .pb-36 {
