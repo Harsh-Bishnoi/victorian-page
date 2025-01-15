@@ -317,6 +317,13 @@
     max-width: 195px;
 }
 
+.bg-img-3 {
+    background-image: url(/assests/images/footer-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
