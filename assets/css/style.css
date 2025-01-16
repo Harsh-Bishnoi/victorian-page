@@ -257,7 +257,7 @@
 .section-3 .accordion-button {
     margin: 52px 16px 26px 0px !important;
     padding: 0 !important;
-    padding-right: 16px !important;  
+    padding-right: 16px !important;
 }
 
 .section-3 .accordion-body {
@@ -430,6 +430,10 @@
     .box {
         padding: 12px;
     }
+
+    .mt-60 {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -502,5 +506,11 @@
     .left-triangle {
         max-width: 250px;
         top: -130px;
+    }
+}
+
+@media (max-width:1045.98px) {
+    .max-w-582 {
+        max-width: 500px;
     }
 }
