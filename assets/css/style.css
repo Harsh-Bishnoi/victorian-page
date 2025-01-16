@@ -52,7 +52,8 @@
 }
 
 .py-9 {
-    padding: 9px 0px;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
 .text-hover-2 {
@@ -381,9 +382,62 @@
     background-position: center;
 }
 
+/***** media screen min-width *****/
 @media (min-width:576px) {
     .section-3 .accordion-button {
         padding-right: 16px !important;
+    }
+}
+
+@media (min-width:992px) {
+    .mb-190 {
+        margin-bottom: 190px;
+    }
+
+    .mb-198 {
+        margin-bottom: 198px;
+    }
+
+    .mb-178 {
+        margin-bottom: 178px;
+    }
+
+    .mb-200 {
+        margin-bottom: 200px;
+    }
+
+    .section-3 .accordion {
+        width: 946.31px !important;
+    }
+
+    .nav-btn-1,
+    .nav-btn-2 {
+        display: none;
+    }
+
+    .box {
+        padding: 65px 0px 89px 73px;
+    }
+}
+
+/***** media screen max-width *****/
+@media (max-width:1399.98px) {
+    .left-triangle {
+        max-width: 350px;
+        top: -194px;
+    }
+}
+
+@media (max-width:1199.98px) {
+    .left-triangle {
+        max-width: 250px;
+        top: -130px;
+    }
+}
+
+@media (max-width:1045.98px) {
+    .max-w-582 {
+        max-width: 500px;
     }
 }
 
@@ -441,12 +495,6 @@
     }
 }
 
-@media (max-width:575.98px) {
-    .mt-63 {
-        margin-top: 20px;
-    }
-}
-
 @media (max-width:767.98px) {
     .mb-190 {
         margin-bottom: 100px;
@@ -469,53 +517,8 @@
     }
 }
 
-@media (min-width:992px) {
-    .mb-190 {
-        margin-bottom: 190px;
-    }
-
-    .mb-198 {
-        margin-bottom: 198px;
-    }
-
-    .mb-178 {
-        margin-bottom: 178px;
-    }
-
-    .mb-200 {
-        margin-bottom: 200px;
-    }
-
-    .section-3 .accordion {
-        width: 946.31px !important;
-    }
-
-    .nav-btn-1,
-    .nav-btn-2 {
-        display: none;
-    }
-
-    .box {
-        padding: 65px 0px 89px 73px;
-    }
-}
-
-@media (max-width:1399.98px) {
-    .left-triangle {
-        max-width: 350px;
-        top: -194px;
-    }
-}
-
-@media (max-width:1199.98px) {
-    .left-triangle {
-        max-width: 250px;
-        top: -130px;
-    }
-}
-
-@media (max-width:1045.98px) {
-    .max-w-582 {
-        max-width: 500px;
+@media (max-width:575.98px) {
+    .mt-63 {
+        margin-top: 20px;
     }
 }
